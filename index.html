@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoApp by Aaron Varga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Todo App</h1>
+        <form action="add.php" method="post">
+            <input type="text" name="task" id="task" placeholder="Enter a task">
+            <button type="submit">Add</button>
+        </form>
+        <ul>
+            <li>
+                <input type="checkbox" name="task1" id="task1">
+                <label for="task1">Task 1</label>
+                <button type="button">Delete</button>
+            </li>
+            <li>
+                <input type="checkbox" name="task2" id="task2">
+                <label for="task2">Task 2</label>
+                <button type="button">Delete</button>
+            </li>
+            <li>
+                <input type="checkbox" name="task3" id="task3">
+                <label for="task3">Task 3</label>
+                <button type="button">Delete</button>
+            </li>
+        </ul>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>

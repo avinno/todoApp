@@ -1,3 +1,6 @@
+let currentYear = document.querySelector("#current-year");
+currentYear.innerHTML = new Date().getFullYear();
+
 // fetch('http://localhost:3000/todos')
 //     .then(response => response.json())
 //     .then(data => {

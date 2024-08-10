@@ -1,0 +1,145 @@
+:root {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: #eee;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-weight: 400;
+    font-size: .88rem;
+    text-transform: uppercase;
+}
+
+h1 svg {
+    margin-right: .5rem;
+    fill: #888;
+}
+
+a {
+    color: blue;
+}
+
+h1 {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+main {
+    border: 1px solid #888;
+    padding: 2rem;
+    background-color: white;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 1rem 2.5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 svg {
+    fill: white;
+}
+
+form {
+    display: flex;
+    gap: .25rem;
+    flex-direction: column;
+    gap: .25rem;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input, button {
+    font-size: 1rem;
+}
+
+input {
+    padding: .75rem .5rem;
+}
+
+button {
+    padding: .75rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    font-size: .88rem;
+    color: #888;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin-top: 1rem;
+}
+
+#todos {
+    display: none;
+}

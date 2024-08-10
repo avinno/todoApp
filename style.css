@@ -105,7 +105,8 @@ input, button {
 }
 
 input {
-    padding: .75rem .5rem;
+    padding: .75rem;
+    border: 1px solid #ccc;
 }
 
 button {
@@ -148,6 +149,12 @@ ul {
 
 .delete-btn {
     background-color: red;
+    color: white;
+    border: none;
+}
+
+#add-btn {
+    background-color: forestgreen;
     color: white;
     border: none;
 }

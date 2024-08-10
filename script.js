@@ -80,7 +80,7 @@ function displayItems(items) {
     items.forEach((item, index) => {
         const li = document.createElement("li");
         li.id = index;
-        li.innerHTML = `${item} <button class="delete-btn">Delete</button>`;
+        li.innerHTML = `${item} <button class="delete-btn">Delete Task</button>`;
         itemList.appendChild(li);
     });
 }

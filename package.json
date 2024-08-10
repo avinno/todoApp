@@ -1,0 +1,27 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "Simple todoApp",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalherding/todoApp.git"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "simple"
+  ],
+  "author": "Aaron Varga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalherding/todoApp/issues"
+  },
+  "homepage": "https://github.com/digitalherding/todoApp#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}

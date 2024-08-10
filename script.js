@@ -51,6 +51,7 @@ addButton.addEventListener("click", (e) => {
     }
 
     if (newItem === "") {
+        // TODO: Create notification messages in the DOM case of user error
         alert("Please enter a task");
     }
 });

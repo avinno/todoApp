@@ -1,19 +1,19 @@
 let currentYear = document.querySelector("#current-year");
 currentYear.innerHTML = new Date().getFullYear();
 
-// fetch('http://localhost:3000/todos')
-//     .then(response => response.json())
-//     .then(data => {
-//         // Handle the JSON data here
-//         console.log(data);
-//     })
-//     .catch(error => {
-//         // Handle any errors that occurred during the fetch request
-//         console.error('Error:', error);
+fetch('http://localhost:3003/tasks')
+    .then(response => response.json())
+    .then(data => {
+        // Handle the JSON data here
+        console.log(data);
+    })
+    .catch(error => {
+        // Handle any errors that occurred during the fetch request
+        console.error('Error:', error);
 
-//         -> Learn how to take data from local storage and post it to json server.
+        // -> Learn how to take data from local storage and post it to json server.
 
-//     });
+    });
 
 // Get references to DOM elements
 const form = document.getElementById("todo-form");

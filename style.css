@@ -10,7 +10,7 @@
 
 body {
     font-family: sans-serif;
-    max-width: 600px;
+    max-width: 375px;
     margin: 0 auto;
     padding: 1rem;
     display: flex;
@@ -91,7 +91,7 @@ form {
     display: flex;
     gap: .25rem;
     flex-direction: column;
-    gap: .25rem;
+    gap: .5rem;
     text-align: center;
 }
 
@@ -140,6 +140,8 @@ ul {
     margin-top: 1rem;
 }
 
-#todos {
-    display: none;
+#todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
